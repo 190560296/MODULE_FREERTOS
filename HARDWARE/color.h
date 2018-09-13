@@ -1,0 +1,22 @@
+#ifndef __color_h
+#define __color_h
+
+static uint8_t color_null[3]    =   {0x00,0x00,0x00};
+
+static uint8_t color_whiteL[3]   =   {0x0f,0x0f,0x0f};
+static uint8_t color_whiteM[3]   =   {0x7f,0x7f,0x7f};
+static uint8_t color_whiteH[3]   =   {0xff,0xff,0xff};
+
+static uint8_t color_blueL[3]    =   {0x00,0x00,0x0f};
+static uint8_t color_blueM[3]    =   {0x00,0x00,0x7f};
+static uint8_t color_blueH[3]    =   {0x00,0x00,0xff};
+
+static uint8_t color_redL[3]   =   {0x00,0x0f,0x00};
+static uint8_t color_redM[3]   =   {0x00,0x7f,0x00};
+static uint8_t color_redH[3]   =   {0x00,0xff,0x00};
+
+static uint8_t color_greenL[3]     =   {0x7f,0x00,0x00};
+static uint8_t color_greenM[3]     =   {0x7f,0x00,0x00};
+static uint8_t color_greenH[3]     =   {0xff,0x00,0x00};
+
+#endif
